@@ -4,7 +4,6 @@ import boto3
 from botocore.exceptions import ClientError
 from dotenv import load_dotenv
 
-
 load_dotenv()
 
 bedrock = boto3.client(
